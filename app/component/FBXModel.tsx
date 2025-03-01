@@ -22,7 +22,10 @@ function Scene() {
     <Canvas camera={{ position: [0, 2, 5], fov: 50 }}>
       <ambientLight intensity={0.5} />
       <directionalLight position={[10, 10, 10]} intensity={1} />
-      <FBXModel modelPath="/boat.FBX" texturePath="/3dpeinture.jpg" />
+      <FBXModel
+        modelPath="3dboat/boat.FBX"
+        texturePath="3dboat/3dpeinture.jpg"
+      />
       <OrbitControls enableZoom={false} />
     </Canvas>
   );
