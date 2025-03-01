@@ -26,7 +26,7 @@ const Timeline = ({ events }: any) => {
             </div>
           </div>
         </div>
-
+        {/*
         <div className="relative flex items-center md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <Checkmark></Checkmark>
@@ -47,7 +47,7 @@ const Timeline = ({ events }: any) => {
             </div>
           </div>
         </div>
-
+*/}
         <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <Checkmark></Checkmark>
@@ -74,23 +74,40 @@ const Timeline = ({ events }: any) => {
         </div>
 
         <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-          <div className="flex items-center justify-center bg-yellow-300 w-10 h-10 rounded-full border border-white bg-slate-300 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-            <div className="w-[80%] h-[80%]">
-              <Trophee></Trophee>
-            </div>
+          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <Checkmark></Checkmark>
           </div>
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
             <div className="flex items-center justify-between space-x-2 mb-1">
-              <div className="font-bold text-slate-900">
-                Raise of a champion
-              </div>
+              <div className="font-bold text-slate-900">Jacque Vabre</div>
               <time className="font-caveat font-medium text-indigo-500">
-                Août/Septembre 2018
+                Novembre 2021
               </time>
             </div>
             <div className="text-slate-500">
-              Vainqueur de la solitaire du Figaro
-              <img src="/figaro2018.png"></img>
+              Dernière aventure avec le sponsor Paprec-Arkea.{" "}
+              <strong>Résultat: 4e</strong>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+          <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+            <Checkmark></Checkmark>
+          </div>
+          <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+            <div className="flex items-center justify-between space-x-2 mb-1">
+              <div className="font-bold text-slate-900">The Ocean Race</div>
+              <time className="font-caveat font-medium text-indigo-500">
+                Octobre 2023
+              </time>
+            </div>
+            <div className="text-slate-500">
+              Participation avec Europe GUYOT environnement - Team Europe
+              <img
+                src="/theoceanrace.jpg"
+                alt="Europe GUYOT environnement - Team Europe"
+              />
             </div>
           </div>
         </div>
